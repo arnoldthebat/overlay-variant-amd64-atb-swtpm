@@ -26,5 +26,6 @@ RDEPEND="
 	net-wireless/rtl8723bu
 	net-wireless/rtl8812au
 	www-plugins/chrome-binary-plugins
+	app-crypt/swtpm
 "
 DEPEND="${RDEPEND}"

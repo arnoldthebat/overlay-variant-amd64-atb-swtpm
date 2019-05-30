@@ -38,7 +38,7 @@ SLOT="0"
 src_install() {
 
 	insinto /usr/sbin
-    doins swtpm* || die "doins failed"
+    dosbin swtpm* || die "doins failed"
 
     insinto /usr/lib64/
     doins libtpms.* || die "doins failed"
